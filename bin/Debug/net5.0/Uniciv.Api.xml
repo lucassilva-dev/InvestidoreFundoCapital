@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Uniciv.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Uniciv.Api.Controllers.FundoCapitalController.ListarFundos">
+            <summary>
+            Envia os dados de um Fundo Capital
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Uniciv.Api.Controllers.FundoCapitalController.AdicionarFundo(Uniciv.Api.Models.FundoCapital)">
+            <summary>
+            Adiciona dados de um fundo capital
+            </summary>
+            <param name="fundo">Insira os dados de um fundo logo abaixo</param>
+            <returns></returns>
+        </member>
+        <member name="M:Uniciv.Api.Controllers.FundoCapitalController.AlterarFundo(System.Guid,Uniciv.Api.Models.FundoCapital)">
+            <summary>
+            Altera dados de um fundo capital
+            </summary>
+            <param name="id">ID do fundo capital</param>
+            <param name="fundo">Nome do fundo a ser alterado logo abaixo</param>
+            <returns></returns>
+        </member>
+        <member name="M:Uniciv.Api.Controllers.FundoCapitalController.ObterFundo(System.Guid)">
+            <summary>
+            Obtem o ID de um Fundo Capital
+            </summary>
+            <param name="id">Insira o ID de algum FundoCapital logo abaixo</param>
+            <returns></returns>
+        </member>
+        <member name="M:Uniciv.Api.Controllers.FundoCapitalController.RemoverFundo(System.Guid)">
+            <summary>
+            Ele remove algum Fundo Capital
+            </summary>
+            <param name="id">Insira o ID do fundo capital a ser removido abaixo</param>
+            <returns></returns>
+        </member>
+        <member name="M:Uniciv.Api.Controllers.InvestidorController.ListarInvestimento">
+            <summary>
+            Envia dado(s) do(s) investidor(es)
+            </summary>
+            <param>Execute para ver os investidores</param>
+            <returns></returns>
+        </member>
+        <member name="M:Uniciv.Api.Controllers.InvestidorController.AdicionarInvestidor(Uniciv.Api.Models.Investidor)">
+            <summary>
+            Adiciona dados de um investidor
+            </summary>
+            <param name="investidor">Insira os dados do investidor logo abaixo</param>
+            <returns></returns>
+        </member>
+        <member name="M:Uniciv.Api.Controllers.InvestidorController.AlterarInvestidor(System.Guid,Uniciv.Api.Models.Investidor)">
+            <summary>
+            Atualiza dados de um investidor
+            </summary>
+            <param name="id">Identificador do investidor</param>
+            <param name="investidor">Dados do Investidor a ser alterado logo abaixo</param>
+        </member>
+        <member name="M:Uniciv.Api.Controllers.InvestidorController.ObterFundo(System.Guid)">
+            <summary>
+            Recebe Id do investidor
+            </summary>
+            <param name="id">Coloque o ID do investidor logo abaixo</param>
+            <returns></returns>
+        </member>
+        <member name="M:Uniciv.Api.Controllers.InvestidorController.RemoverFundo(System.Guid)">
+            <summary>
+            Remove dados de um investidor
+            </summary>
+            <param name="id">Coloque o ID do investidor a ser removido logo abaixo</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
